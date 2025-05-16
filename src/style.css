@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: rgb(36, 36, 36);
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordions-card {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(73, 73, 73);
+}
+
+.question-card {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    width: 60rem;
+}
+
+.question-card p {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.question-title {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    width: 50rem;
+}
